@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+:root {
+  --main-color: #00315e;
+  --scand-color: #6ec1e4;
+  --third-colr: #4fb7b3;
+  --white-color: #fff;
+  --text-color: #000;
+  --four-color: #00315e;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+body {
+  background: #EFEFEF;
+}
+
+button,
+button:focus,
+button:active {
+  all: unset;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
