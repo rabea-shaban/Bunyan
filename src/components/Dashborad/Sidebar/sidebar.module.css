@@ -6,12 +6,22 @@
 
 .title {
   font-size: 0.9rem;
-  /* color: red; */
 }
 .navItem {
   cursor: pointer;
-  transition: background  0.4s;
+  transition: background 0.4s;
 }
-.navItem:hover{
+.navItem:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+.draftBadge {
+  margin-left: auto;
+  background: #f9c74f;
+  color: #1f1f1f;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }

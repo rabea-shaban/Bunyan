@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-const Projects = () => {
+const Developers = () => {
   return (
     <div className="py-4">
       <Outlet />
@@ -8,4 +8,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Developers;
